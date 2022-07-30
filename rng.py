@@ -8,7 +8,10 @@ def rand_num(y1,y2):
      while len(ints) < nums:
         rand_nums = random.randint(y1,y2)
         if rand_nums not in ints:
-                ints.append(rand_nums)
+                ints.append(rand_nums) #my name is Sam
 
 rand_num(range0,range1)
-print(f'Your number(s) are {ints}')
+print(f'Your number(s): {ints}')
+
+
+#My first rng script on python, more to come. -7/30/22
